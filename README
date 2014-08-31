@@ -1,0 +1,16 @@
+lz4compress
+===========
+
+lz4compress is a command line tool for compressing files using lz4 algorithm.
+For more information run lz4compress --help.
+
+List of 3rd party libraries used:
+  - lz4 (https://code.google.com/p/lz4/);
+  - TCLAP (http://tclap.sourceforge.net/).
+
+Use CMake to generate the MSVS solution:
+  mkdir build
+  cd build
+  cmake <path to lz4compress source directory>
+
+Currently only MSVS2012+ is supported (tr2 extensions used).
